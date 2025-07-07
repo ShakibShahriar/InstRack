@@ -1,0 +1,77 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(172, 135, 172, 0.133);
+  color: #333131;
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: #dddddddb;
+  color: rgb(48, 45, 45);
+  padding: 10px;
+  text-align: center;
+}
+
+nav a { 
+  margin: 10px;
+  color: #333131;
+}
+
+
+section {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(243, 248, 250);
+  border-radius: 8px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #ddd;
+}
+
+
+#about details {
+  margin-bottom: 10px;
+  background-color: #e0eedfb3;
+  padding: 30px;
+  border-radius: 6000px;
+}
+
+#about summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(236, 200, 236, 0.338);
+}
+
+
+table tr:hover {
+  background-color: #e0eedfb3;
+  cursor: pointer;
+}
+
